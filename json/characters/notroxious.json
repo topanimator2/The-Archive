@@ -1,0 +1,18 @@
+{
+    "name": "Notroxious",
+    "age": "19",
+    "pronouns": "He/Him",
+    "id": 2,
+
+    "sprites": [
+        "sprites/characters/notroxious/main.png"
+    ],
+    "appearance": {
+        "1-8": "",
+        "9-13": "",
+        "14-17": ""
+    },
+    "description": "",
+    "deeds": "",
+    "abilities": ""
+}

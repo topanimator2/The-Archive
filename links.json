@@ -1,0 +1,6 @@
+{
+    "characters": ["json/characters/ismid.json", "json/characters/notroxious.json", "json/characters/nekleen.json",
+    "json/characters/xavie.json", "json/characters/isolde.json", "json/characters/ivory.json",
+     "json/characters/orion.json"],
+    "cities": [""]
+}

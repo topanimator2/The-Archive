@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title style="color: palevioletred;">Creator</title>
+<link href="style.css" rel="stylesheet" />
+<script src="create.js"></script>
+
+</head>
+<body id="create-document">
+<h1>Creator</h1>
+<label for="selection">What do you want to make?:</label>
+
+<select id="selection">
+  <option value="">--Please choose an option--</option>
+  <option value="Character">Character</option>
+  <option value="City">City</option>
+  <option value="Location">Location</option>
+  <option value="Religion">Religion</option>
+  <option value="Item">Item/Object</option>
+  <option value="Laws">Law of Nature</option>
+  <option value="Other">Information/Other</option>
+  <option value="Story">Story</option>
+</select>
+
+
+<section id="char">
+<br>
+<section id="create-top">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required/>
+(
+<label for="pronouns">Pronouns:</label>
+<input type="text" id="pronouns" name="pronouns" required/>
+)
+<br>
+
+<label for="age">Age:</label>
+<input type="text" id="age">
+
+<label for="sprites">Sprites:</label>
+<input type="text" id="sprites"/>
+</section>
+<br>
+<br>
+<section id="appear">
+<label for="appearance">Appearances (differentiated by ages):</label>
+<input type="number" id="appearance" name="appearance" minlength="1" required/>
+(
+</section>
+)
+<br>
+<br>
+<label for="description">description:</label>
+<textarea id="description"></textarea>
+<br>
+<label for="deeds">deeds(seperated by semmycolons):</label>
+<textarea id="deeds"></textarea>
+<br>
+<label for="abilities">abilities:</label>
+<textarea id="abilities"></textarea>
+<br>
+<br>
+<button id="ccopy">Create!</button>
+
+<h2>Advanced:</h3>
+<label for="id">ID:</label>
+<input type="number" id="id">
+</section>
+
+
+
+
+
+<h1 id="text"></h1>
+</body>

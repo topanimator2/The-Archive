@@ -1,0 +1,17 @@
+{
+    "name": "Ismid",
+    "age": "17",
+    "pronouns": "They/Them",
+    "id": 1,
+    "sprites": [
+        "sprites/characters/ismid/main.png"
+    ],
+    "appearance": {
+        "1-8": "",
+        "9-13": "",
+        "14-17": ""
+    },
+    "description": "",
+    "deeds": "",
+    "abilities": ""
+}

@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h2,
+h4 {
+  padding: 0%;
+}
+
+body #show {
+  display: flex;
+  background-color: black;
+}
+
+#show .character {
+  flex-direction: column;
+  max-width: 200px;
+  max-height: 250px;
+  display: flex;
+  flex-grow: 1;
+  flex: auto;
+  border-radius: 5px;
+}
+
+#show .character:hover {
+  max-width: 200px;
+  max-height: 150px;
+  display: flex;
+  flex-grow: 2;
+  flex: auto;
+  background-color: gray;
+}
+
+#show .character img {
+  height: 75px;
+  width: fit-content;
+  padding: 4px;
+}
+
+#start_chooser {
+  background-color: black;
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#start_chooser form button {
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+#start_chooser form {
+  align-self: center;
+  width: 100%;
+  flex-basis: 20px;
+  transition: ease-in-out;
+  flex-grow: 1;
+}
+#start_chooser form:hover {
+  flex-grow: 2;
+}
+
+#start_chooser form button:hover {
+  color: white;
+  background-color: gray;
+  border: 0px;
+  flex-grow: 2;
+}
+
+#start_chooser form button:active {
+  flex-shrink: 1;
+}
+
+
+
+
+html #create-document .hidden {
+  display: none;
+}
