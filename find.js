@@ -46,7 +46,7 @@ if(sprite.search(/main.png/gm) != -1) {
 
 async function test() {
     const requestURL =
-    "https://github.com/topanimator2/The-Archive/blob/main/links.json";
+    "https://topanimator2.github.io/The-Archive/links.json";
     console.log(requestURL)
     const request = new Request(requestURL);
   
